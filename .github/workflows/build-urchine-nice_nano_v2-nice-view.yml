@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Example 𝑥MK xmk'
+name: 'Build urchin nice_nano_v2 nice_view'
 on: workflow_dispatch
 jobs:
   build:
@@ -9,5 +9,4 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["xmk"]'
-      branches: '["petejohanson/zmk/shell/tap-command","zmkfirmware/zmk/main petejohanson/zmk/shell/tap-command"]'
+      shield: '["cradio_left nice_view_adapter nice_view", "cradio_right nice_view_adapter nice_view"]'
