@@ -1,12 +1,8 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build urchin nice_nano_v2 nice_view'
+name: 'Build urchin'
 on: [workflow_dispatch, push]
 jobs:
   build:
-    uses: ./.github/workflows/main.yml
-    secrets: inherit
-    with:
-      board: '["nice_nano_v2"]'
-      shield: '["urchin_left nice_view_adapter nice_view", "urchin_right nice_view_adapter nice_view"]'
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
