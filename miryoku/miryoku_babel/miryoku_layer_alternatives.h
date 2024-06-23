@@ -28,7 +28,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 // MEDIA
 #define MIRYOKU_ALTERNATIVES_MEDIA \
 U_BOOT,            U_NA,              &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NA,              &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NA,              &kp C_MUTE,        &kp C_VOL_DN,      &kp C_VOL_UP,      U_NA,              \
 U_NA,              &kp RALT,          U_NA,              U_NA,              U_NA,              U_NA,              &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
